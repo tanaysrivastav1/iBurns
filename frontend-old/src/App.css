@@ -1,0 +1,62 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 20vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: lavender;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(20px + 2vmin);
+  color: #9565bd;
+  font-weight: bold;
+}
+
+.App-link {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.input-form {
+  color:black;
+  align-items: center;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.cardHolder {
+  margin: 10px;
+  font-size: large;
+}
+
+#formName {
+  display: flex;
+  justify-content: center;
+}
+
+.loadingButton {
+  padding: 20px;
+}
+
+#progressBar p{
+  font-size: small;
+  color: black;
+  padding-top: 10px;
+  padding-left: 5px;
+}
